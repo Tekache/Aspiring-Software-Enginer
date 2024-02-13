@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+.projects{
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+    color: yellow;
+    text-align: center;
+    padding-top: 60px;
+}
+.projects a {
+    color: #fff;
+}
+
+
+.skills{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+}
+.contact{
+    background-color: black;
+    text-align: center;
+    /* width: 100%; */
+    /* height: 50vh; */
+    /* color: #fff; */
+}
+.contact h2 {
+    color: #fff;
+}
+.contact p {
+    color: #fff;
+}
+
+@media screen and (max-width: 991.98px) {
+    .container .row {
+        display: flex;
+    }
+}
